@@ -8,4 +8,5 @@
 
 ### 🚢 Use the following commands to deploy this application on Kubernetes 🚢
 > kubectl apply -f deployment.yml
+
 > kubectl apply -f service.yml
