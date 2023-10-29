@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: os-info-kubedeployment
+  labels:
+    app: OS-Info
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: os-info
+  template:
+    metadata:
+      labels:
+        app: os-info
+    spec:
+      containers:
+      - name: os-info-container
+        image: sumitjeswani/express-os-info:latest
+        ports:
+        - containerPort: 3000
