@@ -3,6 +3,8 @@
 ## 💻 An application built using Express-Node.js, which will showcase essential information about the system on which it's running/deployed.
 
 ### Follow the commands below to run this application locally:
+> git clone https://github.com/jeswanisumit1999/Express-OS-Info.git
+
 > npm install
 
 > node index.js
